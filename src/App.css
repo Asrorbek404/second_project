@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+}
+.single_product{
+box-shadow:1px 1px 4px 1px #eee;
+    margin: 20px auto;
+    padding: 20px;
+    width: 400px;
+}
+.single_product h3{
+ color:brown;
+}
+.select_filter{
+    text-align: center;
+    margin: 10px auto;
+    width: 150px;
+}
+.select_filter filter{
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    background: #eeeeee;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*carusel  css */
+.slider{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.right-arrow{
+    position: absolute;
+    color: black;
+    top:50%;
+    right: 32px;
+    font-size: 3rem;
+    user-select: none;
+    z-index: 10;
+    cursor: pointer;
+}
+.left-arrow{
+    position: absolute;
+    color: black;
+    top:50%;
+    left: 32px;
+    font-size: 3rem;
+    user-select: none;
+    z-index: 10;
+    cursor: pointer;
+}
